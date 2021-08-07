@@ -24,6 +24,8 @@ exports.handler = (event, context, callback) => {
         "isBase64Encoded": false
     };
 
+    
+
     callback(null, response);  // Echo back the first key value
     //callback('Something went wrong');
 };
